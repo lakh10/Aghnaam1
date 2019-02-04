@@ -53,9 +53,9 @@
             >
 
                 <android.support.design.widget.TextInputEditText
-
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                    android:maxLength="10"
                         android:hint="رقم الهاتف" android:inputType="number|phone" android:id="@+id/edtPhone"/>
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputLayout
